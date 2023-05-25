@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ekta.mohite/IdeaProjects/BookStoreApplication">
+        <classes>
+            <class name="com.qapitol.test.StoreTest">
+                <methods>
+                    <include name="RegisterAndPlaceOrder"/>
+                    <include name="SigninAndPlaceOrder"/>
+                    <include name="PlaceOrderFromNextPage"/>
+                    <include name="Placeorderfrom3rdPage"/>
+                    <include name="PlaceOrderFrom4thpage"/>
+                    <include name="deleteAlreadySelectedBookAndAddNewBook"/>
+                    <include name="SelectSecondCardAndPlaceOrder"/>
+                    <include name="WrongCardNumber"/>
+                    <include name="GetRecentOrderDetails"/>
+                    <include name="UpdateProfile"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
